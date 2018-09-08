@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "title": "Custom Advancements",
+        "description": {"text":"Visit www.madcatgaming.com for more information"},
+        "background": "minecraft:textures/blocks/command_block.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria":{
+           "root_functions": {
+               "trigger": "minecraft:impossible"
+           }
+	}
+}

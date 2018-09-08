@@ -1,0 +1,25 @@
+{
+    "parent":"respawn:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden":true,
+        "title": "Midlands Detected",
+        "description": {"text":"Visit www.madcatgaming.com for more information"}
+    },
+    "criteria": {
+        "found_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "end_midlands",
+                "dimension": "the_end"                
+            }
+        }
+    },
+    "rewards": {
+        "function":"respawn:detectspw"
+    }
+}
